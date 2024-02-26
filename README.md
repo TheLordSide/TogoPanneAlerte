@@ -60,7 +60,7 @@ La base de données choisie est MySQL. Vous pouvez retouver la documentation off
 TogoPanneAlerte/
 |----api
      |----config
-     |----|-togopannealerte.sql
+     |----togopannealerte.sql
 
 ```
 
