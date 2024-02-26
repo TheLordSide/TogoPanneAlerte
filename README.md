@@ -58,8 +58,9 @@ La base de données choisie est MySQL. Vous pouvez retouver la documentation off
 
 ```bash
 TogoPanneAlerte/
-|----config
-|----|-togopannealerte.sql
+|----api
+     |----config
+     |----|-togopannealerte.sql
 
 ```
 
