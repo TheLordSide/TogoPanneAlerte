@@ -17,3 +17,8 @@ define("MESSAGE_SERVICE_CREATION_FAILED", "Echec de l'enregistrement du service"
 define("MESSAGE_SERVICE_CREATION_MISSING", "Informations manquantes pour la création du service");
 define("MESSAGE_SERVICE_EXISTING", "Le service est déjà enregistré");
 define("MESSAGE_SERVICE_NOT_FOUND", "Ce service n'existe pas");
+
+//SIgnaler Message
+define("MESSAGE_SIGNAL_SUCCESS", "Signalement éffectué avec succès");
+define("MESSAGE_SIGNAL_ERROR", "Erreur lors de la création du signalement");
+define("MESSAGE_SIGNAL_MISSING", "Données requises manquantes");
