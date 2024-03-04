@@ -203,6 +203,56 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "signaler",
+			"item": [
+				{
+					"name": "/TogoPanneAlerte/api/signaler/create",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id_services",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "id_users",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1/TogoPanneAlerte/api/signaler/create",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"path": [
+								"TogoPanneAlerte",
+								"api",
+								"signaler",
+								"create"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
