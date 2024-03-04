@@ -21,19 +21,19 @@ class Signaler{
          $this->idusers = $idusers;
          $this->date = $date;
      }
+// TODO Evaluate the need of a comment to add with the signal section
 
-     public static function createSignaler($idservices, $idusers, $type) {
+     public static function createSignaler($idservices, $idusers) {
         // Créer une nouvelle instance de la classe Signaler
         $database = new Database();
         $pdo = $database->connect();
     
         // Requête SQL pour insérer un nouveau signalement dans la base de données
-        $stmt = $pdo->prepare("INSERT INTO signalements (idservices, idusers, date, type) VALUES (:idservices, :idusers, NOW(), :type)");
+        $stmt = $pdo->prepare("INSERT INTO signaler (id_users, id_services, date) VALUES (:id_users, :id_services, NOW())");
     
         // Liaison des paramètres
-        $stmt->bindParam(':idservices', $idservices);
-        $stmt->bindParam(':idusers', $idusers);
-        $stmt->bindParam(':type', $type);
+        $stmt->bindParam(':id_services', $idservices);
+        $stmt->bindParam(':id_users', $idusers);
     
         // Exécution de la requête
         if($stmt->execute()) {
@@ -43,8 +43,8 @@ class Signaler{
             // Création d'un tableau contenant les données de l'utilisateur
             $signalerData = [
                 'id' => $id,
-                'idservice' => $idservices,
-                'iduser' => $idusers,
+                'id_services' => $idservices,
+                'id_users' => $idusers,
                 'date' => date('Y-m-d H:i:s')
             ];
     
