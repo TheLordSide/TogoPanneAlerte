@@ -12,14 +12,13 @@ class SignalerController{
 
     public function createSignaler() {
         // Obtenir les données utilisateur de la requête
-        $idservices = $_POST['idservices'] ?? null;
-        $idusers = $_POST['idusers'] ?? null;
-        $type = $_POST['type'] ?? null;
+        $idservices = $_POST['id_services'] ?? null;
+        $idusers = $_POST['id_users'] ?? null;
     
         // Vérifier si toutes les données requises sont fournies
-        if ($idservices && $idusers && $type) {
+        if ($idservices && $idusers) {
             // Appeler la méthode statique de création d'un signalement
-            $signaler = Signaler::createSignaler($idservices, $idusers, $type);
+            $signaler = Signaler::createSignaler($idservices, $idusers,);
     
             // Vérifier si le signalement a été créé avec succès
             if ($signaler !== false) {
