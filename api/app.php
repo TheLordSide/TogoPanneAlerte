@@ -2,6 +2,7 @@
 use API\controllers\UsersController;
 use API\controllers\ServicesController;
 use API\controllers\AuthController;
+use API\controllers\SignalerController;
 use API\models\Users;
 require_once('./vendor/autoload.php');
 require_once('./helpers/responseHelper.php');
@@ -49,6 +50,15 @@ $router->map('GET', '/TogoPanneAlerte/api/services/[i:id]', function($id) {
     require __DIR__ . '/controllers/ServiceController.php';
     $usersController = new ServicesController(); // Instancier UsersController
     $usersController->getServiceById($id); // Appeler la méthode getUserById() en passant l'ID de l'utilisateur
+});
+
+
+//SiggnalerController Routes
+
+$router->map('POST', '/TogoPanneAlerte/api/signaler/create', function() {
+    require __DIR__ . '/controllers/SignalerController.php';
+    $signalerController = new SignalerController(); // Instancier SignalerController
+    $signalerController->createSignaler(); // Appeler la méthode createSignaler()
 });
 
 
