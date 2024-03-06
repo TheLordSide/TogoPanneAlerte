@@ -49,9 +49,9 @@ composer require altorouter/altorouter
 ### Branches du repository
 3 branches pour l'instant : Master, FrontEnd, Deploy.
 
-- Master : Cette branche contient l'API. Elle contient les modifications pour le BackEnd.
-- FrontEnd : Comme son nom l'indique elle contient les differents FrontEnd ( Web pour l'instant). Tous les commit sur le front seront sur cette branche
-- Deploy : On verra.
+- master : Cette branche contient l'API. Elle contient les modifications pour le BackEnd.
+- web : Comme son nom l'indique elle contient les differents FrontEnd ( Web pour l'instant). Tous les commit sur le front seront sur cette branche
+- mobile : On verra.
 
 ### Database 
 La base de données choisie est MySQL. Vous pouvez retouver la documentation officielle de MySQL [ici](https://dev.mysql.com/doc/). Vous retrouvez le fichier .SQL dans l'arborescance comme suit 
