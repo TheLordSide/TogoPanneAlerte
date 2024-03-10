@@ -139,8 +139,8 @@ class Users {
 
     
     
-/*
-  TODO A BETTER AUTH METHODE. THIS ONE IS SHIT
+
+
       // Méthode pour la connexion de l'utilisateur
       public static function loginUser($email, $password) {
         try {
@@ -183,7 +183,7 @@ class Users {
         // Détruire toutes les données associées à la session courante
         session_destroy();
     }
-    */
+
 
 } 
 

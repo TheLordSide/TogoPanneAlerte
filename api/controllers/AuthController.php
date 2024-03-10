@@ -8,9 +8,8 @@ require_once('./models/Users.php');
 require_once('./helpers/messageHelper.php');
 
 class AuthController {
-/*
 
-TODO A BETTER AUTH CONTROLLER TO BE BUILT, THIS ONE IS SHIT
+
     public function loginUser() {
         // Obtenir les données utilisateur de la requête
         $email = $_POST['email'] ?? null;
@@ -47,7 +46,7 @@ TODO A BETTER AUTH CONTROLLER TO BE BUILT, THIS ONE IS SHIT
         // Renvoyer une réponse indiquant que l'utilisateur est déconnecté
         sendJsonResponse(['success' => true, 'message' => 'Déconnexion réussie.'], 200);
     }
- */
+
 
  
 

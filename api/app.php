@@ -64,9 +64,7 @@ $router->map('POST', '/TogoPanneAlerte/api/signaler/create', function() {
 
 //AuthController Routes
 
-/*
-!This controller should not exist, i will come with another one
-TODO : MAKE A BETTER ONE
+
 $router->map('POST', '/TogoPanneAlerte/api/auth/login', function() {
     require __DIR__ . '/controllers/AuthController.php';
     $authcontroller = new AuthController(); // Instancier AuthController
@@ -78,7 +76,6 @@ $router->map('POST', '/TogoPanneAlerte/api/auth/logout', function() {
     $authcontroller = new AuthController(); // Instancier AuthController
     $authcontroller-> logoutUser();// Appeler la méthode logoutUser()
 });
-*/
 
 $match = $router->match();
 
