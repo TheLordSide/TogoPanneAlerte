@@ -3,7 +3,7 @@
 1. Home page
 2. Login page
 
-
+## Details
 1. Home page 
 Faire une page d'accueil mais qui presenterait une search bar dans laquelle on peut chercher un service, et les derniers services signalés. Pour le design on verra après.
 2. Login page
