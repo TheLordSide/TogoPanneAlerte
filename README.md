@@ -5,7 +5,8 @@
 
 1. Home page
 2. Login page
-3. Registration page 
+3. Registration page
+4. Dashbord page
 
 
 
