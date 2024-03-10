@@ -1,7 +1,12 @@
+#IMPORTANT LES PUSH DOIVENT SE FAIRE SUR LA BRANCHE WEB
+
+
 # Cahier de charge pour le web
 
 1. Home page
 2. Login page
+
+
 
 ## Details
 1. Home page 
