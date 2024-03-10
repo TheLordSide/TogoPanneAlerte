@@ -1,7 +1,7 @@
 # IMPORTANT LES PUSH DOIVENT SE FAIRE SUR LA BRANCHE WEB
 
 # Choix template 
-
+A mettre le lien du template utilisé
 
 # Cahier de charge pour le web
 
