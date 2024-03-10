@@ -1,5 +1,8 @@
 # IMPORTANT LES PUSH DOIVENT SE FAIRE SUR LA BRANCHE WEB
-
+# Comment pull
+```bash
+git pull https://github.com/TheLordSide/TogoPannneAlerte.git web
+```
 # Choix template 
 A mettre le lien du template utilisé
 
