@@ -3,7 +3,7 @@
 ```bash
 git pull https://github.com/TheLordSide/TogoPannneAlerte.git web
 ```
-# Comment push
+# Comment push ?
 ```bash
 git push https://github.com/TheLordSide/TogoPannneAlerte.git web
 ```
